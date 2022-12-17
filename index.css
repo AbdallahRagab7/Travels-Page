@@ -1,0 +1,102 @@
+#hero {
+  height: 800px;
+  background-image: url(/images/places/ocean.jpg);
+  background-position: center;
+  background-size: cover;  /* 34an y5ly el img kamla msh m3molha zoom */
+}
+
+#hero-content {
+  width: 900px;
+  background-color: rgba(51, 47, 47, 0.8);
+  box-shadow: 2px 4px 8px rgba(68, 67, 67);
+  border-radius: 8px;
+  text-align: center;
+  margin: 0px auto;
+  padding: 50px 0;
+
+  position: relative; /*el deffault static w b3mlha relative 34an a7rko by el top w bottom q right w left */
+  top: 200px;
+}
+
+#hero-content h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+}
+
+#hero-content p {
+  color: white;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 32px;
+}
+
+#hero-content a {
+  text-decoration: none;
+  background-color: rgb(255, 251, 0);
+  padding: 12px 24px;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+
+#hero-content a:hover {
+  background-color: rgb(255, 215, 0);
+}
+
+
+#destinations {
+    display: flex;
+    width: 90%; /* han y2ll space flex box w y3mlo center , 7gm el parent elsection y3ny */
+    margin:auto; 
+    margin-bottom: 40px;
+    justify-content: center; /* t center el flex items fi el flexbox*/
+}
+
+.destination img {
+    height: 200px;
+     width: 100%;  /*each flex item will have 1/3 available space of flex box) */
+                    /* w el img width htb2a dynamic byt8yg 7gmha b7gm elwindow */
+    box-shadow: 2px 4px 8px rgb(67, 67,67); 
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.destination{
+    /* 34an ab3d el swr 3n b3d */
+    margin: 0 20px;
+    color: rgb(102, 10, 105);
+
+}
+
+.destination p {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: rgb(123, 123,123);
+}
+
+.destination strong {
+    color: rgb(0, 160, 115);
+}
+
+#highlights h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(59, 64, 65);
+    margin: 24px;
+}
+
+#highlights {
+    /* to solve margin collapsing between child (H2 ) and parent (Section) */
+    padding: 24px;
+    background:linear-gradient(0deg , rgb(227,255,253) ,rgb(210,243,240)) ; 
+} 
+
+

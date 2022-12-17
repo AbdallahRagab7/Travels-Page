@@ -1,0 +1,82 @@
+body {
+  background: linear-gradient(30deg, rgb(77, 77, 77), rgb(58, 58, 58));
+  color: rgb(68, 68, 68);
+}
+
+header {
+  position: static;
+  /* hn3mlha override 34an m3mola absolute fi shared.css 
+ kda trteb el elements hyrg3 3ady
+ lw sbtha absoulute el elements el t7t el header ht5osh fi el header */
+}
+
+#logo a {
+  color: rgb(183, 230, 235);
+}
+
+header a {
+  color: rgb(183, 230, 235);
+}
+
+header nav a:hover {
+background-color: rgb(183, 230, 235);
+}
+
+#logo a:hover {
+    background-color: rgb(183, 230, 235);
+}
+
+main ul {
+  /* width : 100%; */
+  width: 1200px;
+  margin: 0 auto 40px auto; /* 34an tcenter el ul kolha */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 20px;
+}
+main li:nth-of-type(3) {
+  grid-column: 1 / span 2;
+}
+
+main li img {
+  width: 300px;
+  height: 280px;
+  object-fit: cover; /* 34an t5ly img ta5od 7gm elspace elfadya kolha w tb2a el sora kamla */
+}
+
+main li {
+  display: flex;
+  background-color: white;
+  border-radius: 6px;
+  overflow: hidden;
+  /* to make all elements in same container have same behaviour 
+    34an t5ly el border radius ll img 6px hya kman */
+}
+
+.item-content {
+  padding: 24px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.actions {
+  position: relative;
+  text-align: right;
+}
+
+.actions a {
+  text-decoration: none;
+  padding: 6px;
+  color: rgb(22, 211, 228);
+}
+
+.actions a:hover {
+  background-color: rgb(235, 253, 255);
+  border-radius: 6px;
+}
+
+.item-content h2 {
+    margin: 0px;
+}
