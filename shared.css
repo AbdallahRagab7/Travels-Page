@@ -23,16 +23,15 @@ ul {
   
  
 header {
-    /*flex box*/
   display: flex;
-  flex-direction: row;  /*dh el default*/
+  flex-direction: row;  
   justify-content: space-between;
-  align-items: center;  /*verticaly (cross axis) */
+  align-items: center;  
   padding: 15px 60px;
    position: absolute; /*header will be out of the document flow hytl3 mn el trteb
     w element el t7teh el howa el main hytl3 fo2 ya5od mkano */
 
-  /* width el header content = width el ancestor (html) = width el body brdo */
+  /* width el header content = width el ancestor (html) */
   width: 100%; 
   box-sizing: border-box;  
   

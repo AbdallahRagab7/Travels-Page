@@ -1,8 +1,8 @@
 #hero {
   height: 800px;
-  background-image: url(/images/places/ocean.jpg);
+  background-image: url(./images/places/ocean.jpg);
   background-position: center;
-  background-size: cover;  /* 34an y5ly el img kamla msh m3molha zoom */
+  background-size: cover;  
 }
 
 #hero-content {
@@ -14,7 +14,7 @@
   margin: 0px auto;
   padding: 50px 0;
 
-  position: relative; /*el deffault static w b3mlha relative 34an a7rko by el top w bottom q right w left */
+  position: relative; 
   top: 200px;
 }
 
@@ -52,23 +52,21 @@
 
 #destinations {
     display: flex;
-    width: 90%; /* han y2ll space flex box w y3mlo center , 7gm el parent elsection y3ny */
+    width: 90%; 
     margin:auto; 
     margin-bottom: 40px;
-    justify-content: center; /* t center el flex items fi el flexbox*/
+    justify-content: center; 
 }
 
 .destination img {
     height: 200px;
      width: 100%;  /*each flex item will have 1/3 available space of flex box) */
-                    /* w el img width htb2a dynamic byt8yg 7gmha b7gm elwindow */
     box-shadow: 2px 4px 8px rgb(67, 67,67); 
     border-radius: 10px;
     object-fit: cover;
 }
 
 .destination{
-    /* 34an ab3d el swr 3n b3d */
     margin: 0 20px;
     color: rgb(102, 10, 105);
 
